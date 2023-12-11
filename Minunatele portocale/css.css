@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image:url(background.jpg);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:12px;
+}
+div#wraper{
+    margin:50px;
+    margin-top:0px;
+    padding:10px;
+    background-color:lightgray;
+  margin-left:auto;
+  margin-right:auto; 
+  min-width:850px;
+  max-width:720px; 
+}
+#continut{
+    margin-top:10px;
+}
+#navbar{
+    margin-top:10px;
+}
+#navbar ul a:visited{
+    color:white;
+}
+#continutstanga{
+    float:left;
+    padding-top:20px;
+    padding-left:10px;
+    width:200px;
+}
+#continutstanga h2{
+    color:#036;
+    margin-bottom:10px;
+}
+#continutstanga ul{
+    overflow:auto;
+    margin-top:auto;
+}
+#continutstanga p{
+    padding:0px 17px;
+    margin-top:10px;
+    line-height:15px;
+}
+#continutstanga ul li{
+    background-color:#F36207;
+    margin-top:1px;
+    padding:3px 10px;
+    color:white;
+}
+#navbar ul a{
+    text-decoration:none;
+    color:white;
+}
+#bottom ul a{
+    text-decoration:none;
+    color:white;
+}
+#navbar ul{
+    height:21px;
+    overflow:auto;
+}
+#bottom ul{
+    height:21px;
+    overflow:auto;
+}
+#navbar ul li{
+    margin-top:auto;
+    background-color:#F36207;
+    display:inline-block;
+    padding:2px 10px;  }
+#bottom ul li{
+        margin-top:auto;
+        background-color:#F36207;
+        display:inline-block;
+        padding:2px 10px;  }
+#navbar ul li#last{
+    padding-left:450px;
+}
+#bottom ul li#last{
+    padding-left:550px;
+}
+#navbar ul li#first{
+    background-color:#0B0B61;
+}
+#navbar ul:last-child{
+    color:#F36207;
+}
+#bottom ul{
+    color:#F36207;
+}
+#header{
+    padding-bottom:15px;
+}
+#header h1{
+    padding:70px 10px;
+    font-weight:550;
+}
+#header h1 #span1{
+    color: #036;
+}
+#bottom{
+    background-color:#F36207;
+    margin-top:10px;
+}
+#header h1 #span2{
+    color: #F36207;
+}
+div#header img{
+    width:500px;
+    float:left;
+    padding-right:40px;
+}
+#continutmijloc{
+    margin-left:10px;
+    display:inline-block;
+    background-color:white;
+    width:390px;
+    height:670px;
+}
+#continutmijloc h2{
+    padding:20px 10px 5px 10px;
+    color:#036;
+    margin-bottom:10px;
+}
+#continutmijloc p{
+    width:353px;
+    padding:2px 10px;
+    word-spacing:2px;
+    line-height:20px;
+}
+#continutdreapta{
+    float:right;
+    width:200px;
+}
+#continutdreapta h2{
+    padding:20px 10px 5px 10px;
+    color:#036;
+    margin-bottom:10px;
+}
+#continutdreapta p{
+    width:186px;
+    padding:0px 17px;
+    margin-top:10px;
+    line-height:15px;
+}
+#continutstanga ul a{
+    text-decoration:none;
+}
+#continutdreapta ul a{
+    text-decoration:none;
+    color:#F36207;
+}
+#continutdreapta ul li{
+    padding-left:10px;
+    width:155px;
+}
